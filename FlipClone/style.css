@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: rgb(192, 222, 229);
+    /* height: 86vh; */
+    color: white;
+
+}
+
+header {
+    background-color: rgb(189, 236, 119);
+    color: black;
+    height: 8vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(192, 44, 118);
+    height: 4vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marginsmall {
+    margin-right: 3vw;
+}
+
+.logotop {
+    margin-right: 7vw;
+    height: 7vh;
+}
+
+.searchbar {
+    width: 50vw;
+    height: 5vh;
+    border: 0.1vh;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: underline;
+    color: black;
+    font-size: medium;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slidimg1 {
+    width: 60vw;
+    height: 50vh;
+    margin: 0;
+    transform: translate(-50vw);
+    animation: slidear1 1s forwards ease-in 0.5s;
+}
+
+.slidimg2 {
+    width: 60vw;
+    height: 50vh;
+    margin: 0;
+    transform: translate(50vw);
+    animation: slidear2 3s backwards ease-in 0.5s;
+
+}
+
+.horizon {
+    width: 97vw;
+    margin: 0vh 1vw 1.5vh 1vw ;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: aqua;
+    overflow: scroll;
+}
+
+.horizonl {
+    width: 97vw;
+    margin: 0vh 1vw 0vw 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: aqua;
+    overflow: scroll;
+}
+
+.card1 {
+    margin: 1vh 2vw 3vh 0vw;
+    height: 30vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+    color: crimson;
+    background-color: rgb(164, 245, 174);
+}
+
+.card2 {
+    width: 15vw;
+    height: 30vh;
+    margin: 1vh 2vw 3vh 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: crimson;
+    background-color: rgb(164, 245, 174);
+}
+
+.card0 {
+    width: 15vw;
+    height: 30vh;
+    margin: 1vh 3vw 3vh 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+    color: crimson;
+    background-color: rgb(164, 245, 174);
+}
+
+.cardp {
+    height: 3vh;
+}
+
+.sim {
+    text-align: start;
+    background-color: aqua;
+}
+.horizontitle{
+    margin: 1.5vh 1vw 0vh 1vw;
+}
+.imgc{
+    height: 20vh;
+    width: 15vw;
+}
+
+@keyframes slidear1 {
+    from {
+
+        transform: translate(-50vw);
+
+    }
+
+    to {
+
+        transform: translate(25vw);
+    }
+}
+
+@keyframes slidear2 {
+    from {
+        transform: translate(50vw);
+    }
+
+    to {
+        transform: translate(-25vw);
+    }
+}
