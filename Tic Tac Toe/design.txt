@@ -1,0 +1,26 @@
+Done!
+)Steps to design a tic tac toe
+I)UI
+1.1)Grid of 3x3
+1.2)divs for each box ie 9`Boxes named `Box${no}`with same class; and has parent div tittattoo
+1.3)reset button, score and play again buttons, score field x,o
+1.4)Gamenavbar
+1.5)CSS styling of Boxes
+II)Logic
+2.1)create array 'turn' that stores X & O, gameover = 0
+
+
+2.2)while (gameover=0) Pressing on boxes 
+
+
+2.21)changes their inner text to `${turn[0]}`
+2.22)also checks for victory ; if true declare gameover = 1, winner is `{turn[0]}` 
+2.23)also interchanges turn array values after 2.22)
+2.3)Create checks of victory using combinations of boxclassname{no} 
+2.4)Change outputs on victory, declare and gif
+2.5)On reset scores button.click, change stuff to reset
+2.6)on play again button.click add scores,display scores 
+2.7)Add striking of won score immediately using transforms
+1.6)winner animation, transition
+1.7)JS striking of Wins
+(NOT DONE]

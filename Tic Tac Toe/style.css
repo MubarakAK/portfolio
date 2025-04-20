@@ -1,0 +1,141 @@
+.gridmaster {
+    display: grid;
+    grid-template-columns: repeat(3, 12vh);
+    grid-template-rows: repeat(3, 12vh);
+
+}
+
+.tittatoo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 12vh;
+    flex-wrap: wrap;
+
+}
+
+.gridchild {
+    border: 0.5vh blueviolet solid;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxos{
+    font-size: xx-large;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 100%;
+    min-height: 100% ;
+    cursor: pointer;
+    align-content: center;
+
+}
+
+.listhead {
+    display: flex;
+    background-color: black;
+    height: 12vh;
+    align-items: center;
+    border-radius: 2vh;
+}
+
+.item{
+    margin: 2vh;
+    list-style: none;
+    color: azure;
+    font-size: larger;
+}
+
+.scorecard{
+    display: flex;
+    
+}
+
+.scorex{
+    margin: 0 0 0 2vh;
+    border: 1vh  rgb(54, 14, 231)  solid;
+    border-right: 1vh rgb(14, 231, 14) solid;
+}
+
+.scorey{
+    margin: 0 vh;
+    border: 1vh red   solid;
+    border-left: 0;
+}
+
+.headalpha{
+    margin-left: 4vh;
+    font-size: 4vh;
+    text-align: center;
+}
+
+
+.line1{
+    width:20vh;
+    height:0.5vh;
+    background-color: black;
+}
+
+.bellydance{
+    margin-top: 10vh;
+    margin-left: 2.5vw;
+}
+
+
+.xcard{
+    font-size: x-large;
+    text-align: center;
+}
+
+.ycard{
+    font-size: x-large;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grib1{
+    border-top: 0;
+    border-left: 0;
+}
+.grib2{
+    border-top: 0;
+}
+.grib3{
+    border-top: 0;
+    border-right: 0;
+}
+.grib4{
+    border-left: 0;
+}
+.grib6{
+    border-right: 0;
+}
+.grib8{
+    border-bottom: 0;
+}
+.grib7{
+    border-bottom: 0;
+    border-left: 0;
+}
+.grib9{
+    border-bottom: 0;
+    border-right: 0;
+}

@@ -1,0 +1,10 @@
+1)UI
+a)navbar )logo )navs
+b)central playlist )songlist )play option )bg img
+c)footer )play status bar )play,previous
+
+d)body background )beauty
+
+2)LOGIC
+a)onclicks status bar )previous )next )info )gif
+b)play songlist )

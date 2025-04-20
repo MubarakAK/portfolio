@@ -1,0 +1,121 @@
+.navlis {
+    display: flex;
+    list-style: none;
+    background-color: black;
+    height: 5vh;
+}
+
+.lis {
+    margin: 0;
+    padding: 10px;
+    color: gold;
+}
+
+.log {
+    background-color: gold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.windwo {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    min-height: 60vh;
+    max-width: 75vw;
+    margin-left: 10vw ;
+    justify-content: left;
+
+}
+
+.songlists {
+    background-color: black;
+    min-height: 60vh;
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 2vw;
+}
+
+.songitem {
+    background-color: white;
+    border-radius: 2vh;
+    width: 35vw;
+    display: flex;
+    color: blue;
+    margin: 2.3vh;
+    display: flex;
+    align-items: center;
+}
+
+.gif {
+    margin: 1vh 1vw;
+    max-width: 2.5vw;
+    max-height: 5vh;
+    background-color: antiquewhite;
+}
+
+.name {
+    min-width: 18vw;
+    margin: 0, 3vw;
+    text-align: left;
+
+}
+
+.playpause {
+    width: 5vw;
+    background-color: darkorange;
+    text-align: center;
+    margin: 0 1vw;
+    cursor: pointer;
+}
+
+.duration {
+    background-color: rgb(45, 226, 114);
+    text-align: center;
+}
+
+#bgimg{
+    margin-top: 12vh;
+    width:30vw
+}
+
+.feetplay {
+    display: flex;
+    justify-content: center;
+    margin: 3vh 0vw 1vh 10vw;
+    width: 75vw;
+    background-color: black;
+    color: greenyellow;
+    flex-direction: column;
+    align-content: center;
+    height: 10vh;
+    position: sticky;
+    bottom: 0vh;
+    border-radius: 1.2vw;
+}
+
+#ran{
+    margin-left:2.5vw;
+    width: 70vw;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+}
+
+.icplay{
+    margin: 0.5vh 1vw;
+}
+
+.icprev{
+    margin: 0.5vh 1vw;
+}
+
+.icnext{
+    margin: 0.5vh 1vw;
+}
