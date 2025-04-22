@@ -74,7 +74,16 @@
 
 .scorecard {
     display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
 
+}
+
+.someno {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .scorex {
@@ -91,7 +100,7 @@
 
 
 .scoralpha {
-    margin: 30% 0;
+    margin: 1% 0;
     text-align: center;
     height: 20vh;
     box-sizing: border-box;
@@ -141,10 +150,21 @@
 }
 
 
+#caption2{
+    color: #F1D3B2;
+    font-size: x-large;
 
+}
 
+.caption{
+    color: #F1D3B2;
+    font-size: xx-large;
+    text-align: center;
+}
 
-
+.gameover{
+margin: 10% 0;
+}
 
 
 
