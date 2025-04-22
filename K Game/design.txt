@@ -1,0 +1,34 @@
+Done!
+)Steps to design a K Game
+I)UI
+1.1)Grid of 5x5
+1.2)divs for each box ie 25`Boxes named `Box${no}`with same class; and has parent div tittattoo
+1.3)reset button, score and play again buttons, score field Won, Lost
+1.4)Gamenavbar
+1.5)CSS styling of Boxes
+1.6)winner animation, transition
+II)Logic
+2.1)create array 'turn' that stores 'K', gameover = 0
+2.2)while (gameover=0) Pressing on boxcells 
+2.21)changes their bgcolor to black 
+
+
+
+
+2.22)when pressed on a cell, evry other cell moves 1 cell forward of same row with their bgcolors except the row in which the clicked cell is present
+currow = int((result/5))
+getboxeswithchangedcolour -> add to prevarray
+newarray = convert prevarray except currow
+)
+
+
+
+2.22)also checks for victory ; if true declare gameover = 1, winner is player 
+2.23)also interchanges turn array values after 2.22)
+2.3)Create checks of victory using combinations of boxclassname{no} 
+2.4)Change outputs on victory, declare and gif
+2.5)On reset scores button.click, change stuff to reset
+2.6)on play again button.click add scores,display scores 
+2.7)Add striking of won score immediately using transforms
+
+(NOT DONE]

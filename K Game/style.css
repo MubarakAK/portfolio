@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: black;
+}
+
+.tittatoo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 8vh 0;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+
+.gridmaster {
+    display: grid;
+    grid-template-columns: repeat(5, 12vh);
+    grid-template-rows: repeat(5, 12vh);
+
+}
+
+
+.gridchild {
+    border: 0.5vh white solid;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F1D3B2;
+
+}
+
+.boxos {
+    font-size: xx-large;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 60%;
+    min-height: 60%;
+    cursor: pointer;
+    align-content: center;
+    border-radius: 7vh;
+    color: #F1D3B2;
+
+}
+
+
+/* #A43820 */
+
+.gamebar {
+    background: #46211A;
+    ;
+}
+
+.listhead {
+    display: flex;
+    background-color: #46211A;
+    height: 12vh;
+    align-items: center;
+    border-radius: 2vh;
+    margin: 0;
+}
+
+.item {
+    margin: 2vh;
+    list-style: none;
+    color: azure;
+    font-size: larger;
+}
+
+.scorecard {
+    display: flex;
+
+}
+
+.scorex {
+    margin: 0 0 0 2vh;
+    border: 1vh rgb(54, 14, 231) solid;
+    border-right: 1vh rgb(14, 231, 14) solid;
+}
+
+.scorey {
+    margin: 0 0vh;
+    border: 1vh red solid;
+    border-left: 0;
+}
+
+
+.scoralpha {
+    margin: 30% 0;
+    text-align: center;
+    height: 20vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.headalpha {
+    margin: 1vh 0 1vh 1vh;
+    font-size: 4vh;
+    text-align: center;
+    color: #F1D3B2;
+
+}
+
+.line1 {
+    min-width: 100%;
+    min-height: 0.7vh;
+    background-color: white;
+}
+
+.xcard {
+    padding: 11% 0;
+    font-size: 5vh;
+    text-align: center;
+    justify-content: center;
+    color: #F1D3B2;
+}
+
+.ycard {
+    padding: 11% 0;
+    font-size: 5vh;
+    text-align: center;
+    justify-content: center;
+    color: #F1D3B2;
+
+}
+
+.bellydance {
+    margin-top: 5vh;
+    margin-left: 8vw;
+}
+
+.changed{
+    background-color: #F1D3B2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.grib1{
+    border-top: 0;
+    border-left: 0;
+}
+.grib2{
+    border-top: 0;
+}
+.grib3{
+    border-top: 0;
+    border-right: 0;
+}
+.grib4{
+    border-left: 0;
+}
+.grib6{
+    border-right: 0;
+}
+.grib8{
+    border-bottom: 0;
+}
+.grib7{
+    border-bottom: 0;
+    border-left: 0;
+}
+.grib9{
+    border-bottom: 0;
+    border-right: 0;
+} */
