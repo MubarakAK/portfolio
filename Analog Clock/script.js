@@ -19,10 +19,11 @@ let seconds = now.getSeconds();
 let degsec = seconds * 6
 let milliseconds = now.getMilliseconds();
 let degms = milliseconds * 6
+
 dots.forEach(element => {
     position += 30;
     Object.assign(element.style, {
-        transform: `rotate(${position}deg) translateY(-35vh) rotate(-${position}deg)`,
+        transform: `rotate(${position}deg) translateY(-21vh) rotate(-${position}deg)`,
 
     })
 });
@@ -46,24 +47,24 @@ setInterval(() => {
 
         if (element.id == "hour") {
             angle = deghr 
-            dist = 10.5
+            dist = 7
             height = dist * 2
         }
 
         if (element.id == "minute") {
             angle = degmin 
-            dist = 14
+            dist = 9.33
         }
     
         if (element.id == "second") {
             angle = degsec
-            dist = 17
+            dist = 11.33
             height = dist * 2
         }
 
         if (element.id == "ms") {
             angle = degms
-            dist = 5
+            dist = 3.33
             height = dist * 2
             console.log(milliseconds, degms)
         }

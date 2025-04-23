@@ -6,18 +6,18 @@ width:100vw;
 height:100vh
 }
 .base {
-    min-width: 75vh;
-    min-height: 75vh;
-    border-radius: 75vh;
-    border: 2vh rgb(0, 0, 0) solid;
+    min-width: 50vh;
+    min-height: 50vh;
+    border-radius: 50vh;
+    border: 2vh rgb(88, 9, 9) solid;
     box-sizing: border-box;
 
 }
 
 .clock {
-    min-width: 80vh;
-    min-height: 80vh;
-    border-radius: 80vh;
+    min-width: 50vh;
+    min-height: 50vh;
+    border-radius: 50vh;
     border: 1vh white solid;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
@@ -34,7 +34,7 @@ height:100vh
 
 #hour{
     position: absolute;
-    min-height: 21vh;
+    min-height: 14vh;
     max-width: 1.4vh;
     background-color: black;
     border-top-left-radius: 3vh;
@@ -43,7 +43,7 @@ height:100vh
 
 #minute{
     position: absolute;
-    min-height: 28vh;
+    min-height: 18.66vh;
     max-width: 1vh;
     background-color: red;
     border-top-left-radius: 2vh;
@@ -53,7 +53,7 @@ height:100vh
 
 #second{
     position: absolute;
-    min-height: 34vh;
+    min-height: 22.66vh;
     max-width: 0.5vh;
     background-color: blue;
     border-top-left-radius: 1.5vh;
@@ -62,7 +62,7 @@ height:100vh
 
 #ms{
     position: absolute;
-    min-height: 10vh;
+    min-height: 6.66vh;
     max-width: 0.25vh;
     background-color: green;
     border-top-left-radius: 0.5vh;
