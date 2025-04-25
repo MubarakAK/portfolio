@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.backgr {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    animation: shakescreen 3s infinite linear alternate;
+    background-image: url(/Images/bg4.jpeg);
+    background-size: CONTAIN;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scene {
+    width: 100vw;
+    box-sizing: border-box;
+
+
+}
+
+.vehicle {
+    position: fixed;
+    bottom: 6.2vw;
+    right: 60vw;
+    width: 19vw;
+    height: 8vw;
+    animation: shake 30s infinite linear;
+    z-index: 10;
+
+}
+
+
+#car1 {
+    position: absolute;
+    z-index: 5;
+    width: 19.1vw;
+
+}
+
+#tyr1 {
+    position: absolute;
+    top: 2.4vw;
+    right: 14.1vw;
+    animation: wheelrot .03s infinite linear;
+    width: 3vw;
+    z-index: 5;
+
+
+}
+
+#tyr2 {
+    position: absolute;
+    top: 2.4vw;
+    right: 2.8vw;
+    animation: wheelrot .03s infinite linear;
+    width: 3vw;
+    z-index: 5;
+
+}
+
+
+
+#rd0 {
+    position: absolute;
+    bottom: 0vw;
+    width: 56.9vw;
+    height: auto;
+    z-index: 2;
+    right: 43.1vw;
+    animation: rdtran 1s infinite linear;
+
+
+}
+
+#rd1 {
+    position: absolute;
+    bottom: 0vw;
+    width: 56.9vw;
+    z-index: 2;
+    right: -13.8vw;
+    animation: rdtran 1s infinite linear;
+
+}
+
+#rd2 {
+    position: absolute;
+    bottom: 0vw;
+    width: 56.9vw;
+    right: -70.7vw;
+    z-index: 2;
+    animation: rdtran 1s infinite linear;
+
+}
+
+
+@keyframes rdtran {
+
+    100% {
+        transform: translateX(-56.9vw)
+    }
+}
+
+
+@keyframes shakescreen {
+
+    0% {}
+
+    25% {
+        transform: translateY(0.5vw)
+    }
+
+    50% {
+        transform: translateY(0vw)
+    }
+
+    75% {
+        transform: translateY(-0.5vw)
+    }
+
+    100% {
+        transform: translateY(0vw)
+    }
+
+}
+
+
+@keyframes shake {
+
+    0% {}
+
+    10% {
+
+        transform: translateY(0vw)
+    }
+
+    20% {
+        transform: translateY(1.5vw)
+    }
+
+    30% {
+
+        transform: translateY(1.5vw)
+    }
+
+    40% {
+        transform: translateY(2.9vw)
+    }
+
+    45% {
+        transform: translateY(2.9vw)
+    }
+
+    50% {
+        transform: translateY(4.2vw)
+    }
+
+    55% {
+
+        transform: translateY(4.2vw)
+    }
+
+    60% {
+        transform: translateY(3.9vw)
+    }
+
+    75% {
+
+        transform: translateY(2.9vw)
+    }
+
+    90% {
+        transform: translateY(1.9vw)
+    }
+
+    100% {
+        transform: translateY(0vw)
+    }
+
+
+}
+
+@keyframes wheelrot {
+
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

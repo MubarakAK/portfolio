@@ -1,0 +1,16 @@
+Car Animation Roadmap
+I)UI
+1)One Background
+2)One Road, one road under to acommadate shaking of body
+3)Top-Bottom Shaking
+4)Car Frame, Two Wheels Image
+
+II)Animation
+1)Fixing Car parts, Adding Animations to each parts
+2)wheel rotate animation, scaling?
+3)Car translationY in sync with with wheel scaling!
+
+III)Logic
+1)Is required?
+2)button for controlling speed
+3)adding animations via logic, will check
