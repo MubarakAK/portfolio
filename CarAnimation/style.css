@@ -79,17 +79,18 @@ body{
 
 }
 
+.rd{
+    animation: rdtran 1s infinite linear;
+
+}
+
 #rd0 {
     position: absolute;
     bottom: 0%;
     width: 56.9%;
     height: auto;
     z-index: 2;
-    left: -23%;
-    animation: rdtran 1s infinite linear;
-    overflow: hidden;
-
-
+    left: -20%;
 }
 
 #rd1 {
@@ -97,22 +98,27 @@ body{
     bottom: 0%;
     width: 56.9%;
     z-index: 2;
-    left: 33.2%;
-    animation: rdtran 1s infinite linear;
-    overflow: hidden;
+    left: 36%;
 
 }
-
-#rd2 {
+ 
+ #rd2 {
     position: absolute;
     bottom: 0%;
     width: 56.9%;
-    left: 89.3%;
+    left: 92%;
     z-index: 2;
-    animation: rdtran 1s infinite linear;
-    overflow: hidden;
 
 }
+
+#rd3 {
+    position: absolute;
+    bottom: 0%;
+    width: 56.9%;
+    left: 148%;
+    z-index: 2;
+
+} 
 
 
 @keyframes rdtran {
