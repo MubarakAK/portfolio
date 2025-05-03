@@ -134,19 +134,19 @@ body{
     0% {}
 
     25% {
-        transform: translateY(0.5vw)
+        transform: translateY(1%)
     }
 
     50% {
-        transform: translateY(0vw)
+        transform: translateY(0%)
     }
 
     75% {
-        transform: translateY(-0.5vw)
+        transform: translateY(-1%)
     }
 
     100% {
-        transform: translateY(0vw)
+        transform: translateY(0%)
     }
 
 }
@@ -158,11 +158,11 @@ body{
 
     10% {
 
-        transform: translateY(0vw)
+        transform: translateY(0%)
     }
 
     20% {
-        transform: translateY(1.5vw)
+        transform: translateY(1.5%)
     }
 
     30% {
@@ -171,37 +171,37 @@ body{
     }
 
     40% {
-        transform: translateY(2.9vw)
+        transform: translateY(2.9%)
     }
 
     45% {
-        transform: translateY(2.9vw)
+        transform: translateY(2.9%)
     }
 
     50% {
-        transform: translateY(4.2vw)
+        transform: translateY(4.2%)
     }
 
     55% {
 
-        transform: translateY(4.2vw)
+        transform: translateY(4.2%)
     }
 
     60% {
-        transform: translateY(3.9vw)
+        transform: translateY(3.9%)
     }
 
     75% {
 
-        transform: translateY(2.9vw)
+        transform: translateY(2.9%)
     }
 
     90% {
-        transform: translateY(1.9vw)
+        transform: translateY(1.9%)
     }
 
     100% {
-        transform: translateY(0vw)
+        transform: translateY(0%)
     }
 
 
