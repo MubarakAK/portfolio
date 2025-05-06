@@ -11,7 +11,7 @@ body{
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-    /* animation: shakescreen 3s infinite linear alternate; */
+    animation: shakescreen 3s infinite linear alternate;
     background-image: url(Images/bg4.jpeg);
     background-size: cover; 
     background-position-x: center;
@@ -27,7 +27,7 @@ body{
     left: 20%;
     height: 10%;
     aspect-ratio: 3 / 1;
-    animation: shake 30s infinite linear; 
+    animation: shake 30s infinite linear;
     z-index: 5;
     background-image: url(Images/car.png);
     background-size: contain; 
@@ -121,59 +121,12 @@ body{
 } 
 
 
-.obs{
-    position: absolute;
-    bottom: 9.0%;
-    height: 20.0%;
-    aspect-ratio: 5/6;
-    right: 0%;
-    z-index: 2;
-    background-image: url(Images/obs.png);
-    background-size: cover; 
-    background-position-x: center;
-    background-position-y: center ;
-    background-repeat: no-repeat;
-}
-
-.aniob{
-    animation: obsmove 3s infinite linear;
-}
-
-@keyframes obsmove {
-
-    0% {
-        transform: translateX(0vw)
-    }
-
-    100% {
-        transform: translateX(-100vw)
-    }
-
-}
-
-
-@keyframes jumper {
-0%{
-    bottom: 20%;
-}
-
-50%{
-    bottom: 65%;
-}
-
-100%{
-    bottom: 20%;
-}
-
-}
-
 @keyframes rdtran {
 
     100% {
         transform: translateX(-56.9%)
     }
 }
-
 
 
 @keyframes shakescreen {
