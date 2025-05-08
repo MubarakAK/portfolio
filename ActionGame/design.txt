@@ -14,3 +14,6 @@ III)Logic
 1)Is required?
 2)button for controlling speed
 3)adding animations via logic, will check
+4)Add keyboard listener to jump
+5)add jump function that jumps car, by adding another animation that raises car height and then drops it back to previous state
+6)set timeout for jump function is 0.05 seconds
