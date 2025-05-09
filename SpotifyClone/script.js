@@ -23,16 +23,16 @@ playbutseek.addEventListener("click", (e) => {
 })
 
 let songs = [
-   { songname: "Bewafa Nikli hai", coverpath: "images/image5.jpeg", filepath: "audios/0.mp3" },
-   { songname: "Tum meri aasmaan", coverpath: "images/image1.jpeg", filepath: "audios/1.mp3" },
-   { songname: "Despacito", coverpath: "images/image2.jpeg", filepath: "audios/2.mp3" },
-   { songname: "AAj Ki Raat", coverpath: "images/image3.jpeg", filepath: "audios/3.mp3" },
-   { songname: "mm hmm hmmm", coverpath: "images/image4.jpeg", filepath: "audios/4.mp3" },
-   { songname: "tum meri asmaan", coverpath: "images/image1.jpeg", filepath: "audios/6.mp3" },
-   { songname: "Despacito", coverpath: "images/image2.jpeg", filepath: "audios/7.mp3" },
-   { songname: "AAj Ki Raat", coverpath: "images/image3.jpeg", filepath: "audios/8.mp3" },
-   { songname: "mm hmm hmmm", coverpath: "images/image4.jpeg", filepath: "audios/9.mp3" },
-   { songname: "Bewafa Nikli hai", coverpath: "images/image5.jpeg", filepath: "audios/10.mp3" },
+   { songname: "Bewafa Nikli hai", coverpath: "SpotifyClone/images/image5.jpeg", filepath: "SpotifyClone/audios/0.mp3" },
+   { songname: "Tum meri aasmaan", coverpath: "images/image1.jpeg", filepath: "SpotifyClone/audios/1.mp3" },
+   { songname: "Despacito", coverpath: "SpotifyClone/SpotifyClone/images/image2.jpeg", filepath: "SpotifyClone/audios/2.mp3" },
+   { songname: "AAj Ki Raat", coverpath: "SpotifyClone/images/image3.jpeg", filepath: "SpotifyClone/audios/3.mp3" },
+   { songname: "mm hmm hmmm", coverpath: "SpotifyClone/images/image4.jpeg", filepath: "SpotifyClone/audios/4.mp3" },
+   { songname: "tum meri asmaan", coverpath: "SpotifyClone/images/image1.jpeg", filepath: "SpotifyClone/audios/6.mp3" },
+   { songname: "Despacito", coverpath: "SpotifyClone/images/image2.jpeg", filepath: "SpotifyClone/audios/7.mp3" },
+   { songname: "AAj Ki Raat", coverpath: "SpotifyClone/images/image3.jpeg", filepath: "SpotifyClone/audios/8.mp3" },
+   { songname: "mm hmm hmmm", coverpath: "SpotifyClone/images/image4.jpeg", filepath: "SpotifyClone/audios/9.mp3" },
+   { songname: "Bewafa Nikli hai", coverpath: "SpotifyClone/images/image5.jpeg", filepath: "SpotifyClone/audios/10.mp3" },
 ]
 
 progressbar = document.getElementById("ran");
@@ -78,11 +78,11 @@ songplays.forEach((element, i) => {
       else {
          makepause("Play")
          indexsong = i
-         if (audioelem.src == `${server}/audios/${indexsong}.mp3`) {
+         if (audioelem.src == `${server}/SpotifyClone/audios/${indexsong}.mp3`) {
             currpurr = audioelem.currentTime
          }
          else {
-            audioelem.src = `${server}/audios/${indexsong}.mp3`
+            audioelem.src = `${server}/SpotifyClone/audios/${indexsong}.mp3`
             currpurr = 0
          }
 
