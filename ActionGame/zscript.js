@@ -93,7 +93,7 @@ setInterval(() => {
 
         if (score != 0) {
             anidur = parseFloat(window.getComputedStyle(obstacle, null).getPropertyValue('animation-duration'));
-            time = anidur - 0.1;
+            time = anidur - 0.02;
             secs = time / 2.6
         }
 
