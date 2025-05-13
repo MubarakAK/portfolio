@@ -1,0 +1,15 @@
+a)HTML
+a1)Sticky Navbar
+a2)Searchbar at end
+a3)blog container
+a4)other blogs section
+
+b)CSS
+b1)Navbar
+b2)Searchbar
+b3)container scroll
+b4)other blogs scroll
+
+c)JS
+c1)search title words of blogs in search bar
+c2)make blog responsive
