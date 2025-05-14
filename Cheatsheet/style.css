@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(251, 255, 0, 0.65);
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.816);
+    font-weight: bolder;
+    font-size: larger;
+    color: azure;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: azure;
+}
+
+.toolbar-item {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 1);
+    color: yellow;
+    border: 2px solid aqua;
+    border-radius: 5px;
+
+}
+
+.copy-to-clipboard-button {
+    cursor: pointer;
+
+}
+
+/* <div class="header">
+<p>This Chetsheet Is For You</p>
+</div>
+
+<div class="coder">
+<div class="card">
+  <div class="titler">
+  <p>1.0 Variable Assiging</p>
+  </div>
+  <div class="code">
+     <pre class="language-js"><code>let a = 5; </code></pre>
+  </div>
+</div>  */
+
+.coder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card {
+    margin: 1% 0;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    width: 50%;
+}
