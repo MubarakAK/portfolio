@@ -277,7 +277,7 @@ let foodmachine = () => {
         snakepos = elem[1]
 
         for (let index = 0; index < 256; index++) {
-            if (index != snakepos && !foodfield.includes(index))
+            if ((index != snakepos) && !foodfield.includes(index))
                 foodfield.push(index);
         }
     })
@@ -297,6 +297,10 @@ let foodmachine = () => {
 }
 
 let Game = () => {
+    if (food == 0) {
+        foodfield = []
+        foodmachine()
+    }
     snake = snakemove(snake, direction)
     iter = 0
     gridboxes.forEach((element, cell) => {
@@ -318,9 +322,7 @@ let Game = () => {
             }
         })
     })
-    if (food == 0) {
-        foodmachine()
-    }
+
     time -= 1
 }
 
