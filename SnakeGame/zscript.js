@@ -272,14 +272,20 @@ let snakemove = (snake, direction) => {
 }
 
 let foodmachine = () => {
+    for (let index = 0; index < 256; index++) {
+        if (!foodfield.includes(index))
+            foodfield.push(index);
+    }
+
     snake.forEach(elem => {
         snakeid = elem[0]
         snakepos = elem[1]
 
-        for (let index = 0; index < 256; index++) {
-            if ((index != snakepos) && !foodfield.includes(index))
-                foodfield.push(index);
+        let index = foodfield.indexOf(snakepos);
+        if (index > -1) {
+          foodfield.splice(index, 1); 
         }
+
     })
 
     foodmax = foodfield.length
@@ -291,6 +297,7 @@ let foodmachine = () => {
         if ((gameover == 0) && (food == 0) && (cell == burger)) {
             reqelement.classList.add("burger")
             food = 1
+            console.log(foodfield,snake)
             foodfield = []
         }
     })
