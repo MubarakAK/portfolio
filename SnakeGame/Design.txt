@@ -1,0 +1,17 @@
+I]Sample Initial Design
+1)UI
+a)Create a grid of squares - Playfield , custom design - No gridlines
+b)Create a snake ?? by changing grid class to snake head,body or tail and customising these 3 specified grid class properties
+c)Create Food obstacle, by changing grid classes to small food and large food
+d)Create score div and display for scores
+e)Play again and highscore divs buttons.
+f)Highscore added to local storage
+
+2)Logic
+a)Start first snakehead at given random number input received by user and respective grid as head and nearby right as head
+b)During game with food as checking systems score is added when head touches food
+c)if score is added the length of snake is changed to n+1 where n is no of grid snake body
+
+d)set interval for every 100ms so that current position is taken 
+,set as previous position and then new position is derived and set as current position
+e)then add arrow keys on keydown for logic
