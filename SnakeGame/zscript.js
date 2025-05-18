@@ -117,18 +117,19 @@ let snakemove = (snake, direction) => {
     oldsnake.forEach(element => {
         snakeid = element[0]
         snakepos = element[1]
-
+       
         if (snakeid == length - 1) {
             tailid = element[0]
             tailpos = element[1]
         }
         else {
-            newsnake.unshift([snakeid + 1, snakepos])
+            newsnake.push([snakeid + 1, snakepos])
         }
     })
+    
 
     if ((food == 1) && (burger == newhead[1])) {
-        newsnake.unshift([tailid + 1, tailpos])
+        newsnake.push([tailid + 1, tailpos])
         gridboxes.forEach((element, cell) => {
             reqelement = element.getElementsByClassName("boxos")[0]
             if ((gameover == 0) && (food == 1) && (cell == burger)) {
@@ -362,6 +363,7 @@ playagain.addEventListener("click", () => {
         element.classList.remove("changed")
     })
     score = 0
+    scorexcard.innerText = 0
     direction = 1
     iter = 0
     time = 200
