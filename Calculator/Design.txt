@@ -1,0 +1,22 @@
+a)UI
+-Grid
+
+b)Logic
+curroper = ''
+txtclast=0
+- onclick- elemnt
+- elemnt saved to txtcurnt
+- txtlast = txtcurnt
+
+- if txtlast and txtcurnt are both nums && txtlast!=0,
+- txtcurnt = elemnt.innertext
+- then txtcurnt = txtlast*10 + txtlast
+- txtlast = txtcurnt
+
+- else if elem = operators then curroper = operatelem
+
+- now else if curroper!= '' then 
+- txtcurnt = str(txtlast + curroper + element.innertext)
+
+- ans = eval(txtcurnt)
+

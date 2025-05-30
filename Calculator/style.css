@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 0, 0);
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 60vh;
+    width: 40vw;
+    margin: 20vh auto;
+    border: 0.05vw solid rgb(0, 0, 0);
+    border-radius: 1vh;
+    box-sizing: border-box;
+
+
+}
+
+.screen{
+      background-color: rgb(255, 255, 255);
+      color: black;
+      border-bottom: 0.05vw solid rgb(0, 0, 0); 
+      border-top-left-radius: 1vh;
+      border-top-right-radius: 1vh;
+      background-image: linear-gradient(to top, white, lightgrey);
+      height: 25%;
+      width: 100%;
+      box-sizing: border-box;
+      overflow: hidden;
+
+}
+
+
+.grid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 10vw);
+    grid-template-rows: repeat(5, 10vh);
+    box-sizing: border-box;
+    background-color: rgb(54, 36, 36);
+}
+
+
+.elem{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.001vmin solid rgb(54, 36, 36); 
+    border-radius: 0.3vh;
+    background-color: rgb(251, 255, 0);
+
+}
+
+
+.hide{
+    visibility: hidden;
+}
+
+.butt{
+    font-size: x-large;
+}
+
+.elem:hover{
+    background-color:rgb(0, 131, 131); 
+}
+
+.display{
+    width:95%;
+    text-align: right;
+    font-size: xx-large;
+
+}
+
+.equal{
+    background-color: rgb(231, 101, 25);
+}
+
+
+.oprp{
+    background-color: purple;
+}
+
+.oprp p{
+    color: rgb(229, 255, 0);
+}
+
+.ACP{
+    background-color: rgb(255, 48, 48);
+}
+
+.CP{
+    background-color: rgb(255, 129, 129);
+}
+
+.ON{
+    background-color: rgb(70, 238, 48);
+
+}
