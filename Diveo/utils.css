@@ -1,0 +1,44 @@
+.m-1{
+    margin: 1%;
+}
+
+.p-1{
+    padding: 1%;
+}
+
+
+.mr0{
+    margin-right: 2.5%;
+}
+
+.mr1{
+    margin-right: 5%;
+}
+
+.mr2{
+    margin-right: 10%;
+}
+
+.ml1{
+    margin-left: 5%;
+}
+
+.ml0{
+    margin-left:2.5%;
+}
+
+.mt1{
+    margin-top: 5%;
+}
+
+.mt0{
+    margin-top: 2.5%;
+}
+
+.mb1{
+    margin-bottom: 5%;
+}
+
+.mb0{
+    margin-bottom: 2.5%;
+}
