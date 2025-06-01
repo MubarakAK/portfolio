@@ -1,0 +1,28 @@
+I)UI
+1.Create a simple Form type boxes
+a)a text div for queries
+b)a result box displayed only when submitted
+c)Result boxes divided into multiple segments that collect and display specific results
+
+2)Css styling for pro look
+
+II)Logic
+1.Use a async function utilising fetch api using url :(https://api.dictionaryapi.dev/api/v2/entries/en/<word>)
+2.fetch the result using .json
+what we need is 
+3.a) 1st Array as TRUE DATA                                                           
+3.b) TRUE DATA has 4 elements - (partOfSpeech),(synonyms),(antonyms)(definitionobj)   -
+4.a) 2nd Array as Display data
+4.b) Display data has len(partofspeech) elements
+4.c) iterate over partofspeech to add elements
+4.d) for i in len(partofspeech) (add displaydata[i].partofspeech = truedata.partofspeech[i])    eg: noun
+4.e)                            (add displaydata[i].synonyms = ...truedata.synonyms[i])         eg: ...synonyms(noun)
+4.f)                            (add displaydata[i].antonyms = ...truedata.antonyms[i])         eg: ...antonyms(noun)
+4.g)                            (add displaydata[i].definitions = interim
+                                       truedata.definitions[i].foreach(ele){
+                                       for i in len(ele)  
+                                             interim.push = ele[i].definition
+                                         })  eg: ...definitions(noun)
+
+
+4.Display it into the result div

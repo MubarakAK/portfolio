@@ -1,0 +1,128 @@
+/* *{
+margin: 0;
+padding: 0;
+} */
+
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.form1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 12vh;
+}
+
+.insideform{
+    height: 80%;
+    width: 30%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideform input{
+    height: 50%;
+    width: 80%;    
+    box-sizing: border-box;
+    margin-right: 2%;
+}
+
+.insideform button{
+    height: 50%;
+    width: 20%;    
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.set {
+    margin: 0.7% 0;
+    padding: 1% 3%;
+    width: 55%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lawngreen;
+}
+
+.partofspeech{
+   text-decoration: solid;
+   font-size: larger;
+}
+
+.synonyms {
+    text-wrap: wrap;
+    font-size: large;
+
+}
+
+.antonyms {
+    text-wrap: wrap;
+    font-size: large;
+
+}
+
+.definitions{
+    text-wrap: wrap;
+    font-size: large;
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+.form1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+}
+
+.insideform{
+    height: 70%;
+    width: 60%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideform input{
+    height: 50%;
+    width: 80%;    
+    box-sizing: border-box;
+    margin-right: 2%;
+}
+
+.insideform button{
+    height: 50%;
+    width: 20%;    
+}
+
+.set {
+    margin: 0.7% 0;
+    padding: 1% 3%;
+    width: 75%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lawngreen;
+}
+
+}
