@@ -1,0 +1,27 @@
+I)UI
+1.Create a simple Form with 
+a)input box to search for the city
+b)a div that displays the results
+
+2)Css styling for pro look
+
+II)Logic
+1.Fetch data from api
+2.Process data to obtain clear data in sets
+3.Display sets appropriately
+4.Perfect required ui before display finishing
+
+
+// temptime = { "timezone": "Europe/London", "datetime": "2022-09-18 19:16:43", "date": "2022-09-18", "year": "2022", "month": "09", "day": "18",  "hour": "19", "minute": "16", "second": "43", "day_of_week": "Sunday"}
+// temptime = {
+//   "timezone": "Europe/London",
+//   "datetime": "2022-09-18 19:16:43",
+//   "date": "2022-09-18",
+//   "year": "2022",
+//   "month": "09",
+//   "day": "18",
+//   "hour": "19",
+//   "minute": "16",
+//   "second": "43",
+//   "day_of_week": "Sunday"
+// }
