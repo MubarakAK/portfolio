@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /* background-color: rgb(255, 251, 0); */
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+
+.nav {
+    display: flex;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 10vh;
+    background-color: rgb(0, 150, 250);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav:hover {
+    background-color: rgb(62, 62, 62);
+
+    .nav-link {
+        color: rgb(247, 45, 45);
+    }
+
+    .font3 {
+        color: red;
+    }
+
+    .nav-link:hover {
+        color: rgb(0, 150, 250);
+    }
+}
+
+.nav-item {
+    padding: 3vh 1vw;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 4vh;
+}
+
+
+.infer {
+    /* background-color: darkorange; */
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5vh 0 0 0;
+}
+
+.line1, .line2{
+    height: 38%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.line3{
+    height: 24%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#inp1 {
+    width: 50%;
+    box-sizing: border-box;
+    height: 75%;
+    padding: 0 0 0 2.5%;
+    border: 1px rgb(126, 126, 126) solid;
+}
+
+#inp2 {
+    width: 50%;
+    box-sizing: border-box;
+    height: 75%;
+    padding: 0 0 0 2.5%;
+    border: 1px rgb(126, 126, 126) solid;
+}
+
+#valuea {
+    width: 50%;
+    box-sizing: border-box;
+    height: 75%;
+    padding: 0 0 0 2.5%;
+    border-top-left-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
+    border: 1px rgb(126, 126, 126) solid;
+}
+
+#valueb {
+    width: 50%;
+    box-sizing: border-box;
+    height: 75%;
+    padding: 0 0 0 2.5%;
+    border-top-left-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
+    border: 1px rgb(126, 126, 126) solid;
+}
+
+#inpbutton {
+    width: 30%;
+    height: 95%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 1.5vw;
+    border: 1px rgb(126, 126, 126) solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#inpbutton:hover {
+border: 0.5vh solid white;
+}
+
+.display {
+    /* background-color: red; */
+    height: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.screen {
+    /* background-color: rgb(0, 255, 21); */
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content {
+    height: 90%;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: xx-large;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(0, 255, 13);
+    box-sizing: border-box;
+    font-size: xx-large;
+    color: aliceblue;
+    border-radius: 6vh;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    box-sizing: border-box;
+    font-size: xx-large;
+    color: aliceblue;
+    border-radius: 6vh;
+
+}
+
+.font1 {
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+
+
+.font2{
+    color: rgb(255, 229, 229);
+    font-family: sans-serif;
+
+}
+
+.font3{
+    color: rgb(16, 0, 160);
+    font-family: sans-serif;
+}
+
+.font4{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
