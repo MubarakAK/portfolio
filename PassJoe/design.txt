@@ -1,0 +1,32 @@
+I)UI
+1.1 Search Passwords
+- a)Textbox for Email,username ie(key)
+- b)textbox for Site id
+- c)Each Result in a div with all 3 details{{site,username}, password}
+1.2)Also a delete option to delete a respective div, ie passowrd
+
+1.3)Add New Password
+- a)Textbox for Email,username ie(key)
+- b)textbox for Site id
+- c)textbox for password
+
+1.4)CSS Styling
+
+II)Logic
+2.1)Add Passwords                                                                                      -----------------
+- a)ADD three details into 3 box, saved as {1,2} = 3 into local storage                                
+2.2)Display info by searching through local storage, and dislaying matched results                     -----------------
+
+2.3) Create uis seperated each set as a div with id=id
+- a) create a delete item inside that div.
+- b) onclick delete - runover local storage passwords, run over each elemnt, and when id=id delete that element 
+set from the string in local and display again inside that function
+- c) fix up bg color of ui to fix issues including max-content and left right 
+
+
+2.4)Search Passwords
+- a)Search via 1 => gets all of 1
+- b)search via 2 => get all of 2
+- c)search via 1,2 => get all of key.[0]contains(part of string1) & key.[1]contains(part of string2) 
+
+

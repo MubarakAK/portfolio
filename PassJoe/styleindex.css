@@ -1,0 +1,213 @@
+body {
+    background-color: rgb(62, 62, 62);
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav {
+    display: flex;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 10vh;
+    background-color: rgb(0, 150, 250);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav:hover {
+    background-color: black;
+
+    .nav-link {
+        color: rgb(0, 150, 250);
+        font-weight: 600;
+    }
+
+    .nav-link:hover {
+        color: red;
+    }
+}
+
+.nav-item {
+    padding: 3vh 1vw;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 4vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5vh 0;
+    overflow: hidden;
+    min-height: 90vh;
+}
+
+.left {
+    height: 80vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border: 0.005vw solid rgb(255, 0, 0);
+    border-radius: 30vw;
+}
+
+.p1 {
+    height: 20%;
+}
+
+.right {
+    min-height: 85vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: green;
+    border-radius: 4vw;
+}
+
+#submit {
+    height: 13%;
+    width: 25%;
+    border-radius: 2vw;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: larger;
+    justify-content: center;
+}
+
+#submit:hover {
+    background-color: green;
+    border: 0 solid black;
+    color: rgb(255, 251, 0);
+    font-weight: 600;
+}
+
+.search {
+    width: 70%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+}
+
+.searchin{
+    width: 85%;
+    border-top-left-radius: 2vmin;
+    border-bottom-left-radius: 2vmin;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: medium;
+}
+
+.but1{
+    width: 15%;
+    height: 95%;
+    margin: 0 0 0 0;
+    padding: 0;
+    border-top-right-radius: 2vmin;
+    border-bottom-right-radius: 2vmin;
+    background-color: aqua;
+}
+
+.insideform {
+    width: 100%;
+    height: 85%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.insinp {
+    height: 13%;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 2vw;
+    text-align: center;
+    font-size: large;
+}
+
+.delete {
+    background-color: red;
+    color: gold;
+}
+
+.passdis {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: max-content;
+}
+
+/* 
+
+
+@media only screen and (max-width: 1000px) {
+.form1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+}
+
+.insideform{
+    height: 70%;
+    width: 60%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideform input{
+    height: 50%;
+    width: 80%;    
+    box-sizing: border-box;
+    margin-right: 2%;
+}
+
+.insideform button{
+    height: 50%;
+    width: 20%;    
+}
+
+.set {
+    margin: 0.7% 0;
+    padding: 1% 3%;
+    width: 75%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lawngreen;
+}
+
+} */

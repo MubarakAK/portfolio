@@ -1,0 +1,277 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row; 
+    align-content: center;
+    height: 10vh;
+    background-color: rgb(0, 150, 250);
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-nav:hover {
+    height: 10vh;
+    background-color: rgb(62, 62, 62);
+
+    .nav-link {
+        color: rgb(247, 45, 45);
+    }
+
+    .font3 {
+        color: red;
+    }
+
+}
+
+
+.nav-item{
+   padding: 3vh 1vw;
+   display: flex;
+   align-items: center;
+   list-style: none;
+
+
+}
+
+.nav-link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 4vh;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 70%;
+    height: 10%;
+}
+
+.searchform {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.searchform input {
+    width: 85%;
+    height: 95%;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 2vmin;
+    border-bottom-left-radius: 2vmin;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: medium;
+}
+
+.but1{
+    width: 15%;
+    height: 95%;
+    margin: 0 3% 0 0;
+    padding: 0;
+    border-top-right-radius: 2vmin;
+    border-bottom-right-radius: 2vmin;
+    ;
+}
+
+.none{
+    display:none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.left{
+    height: 90vh;
+    width:50vw  ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    height: 90vh;
+    width: 50vw  ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 90vh;
+    width:90%;
+    max-height: 90vh;
+}
+
+
+.insideform{
+    width: 100%;    
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideform div{
+    width: 90%;    
+    height: 90vh;
+    /* max-height: max-content; */
+    box-sizing: border-box;
+    margin: 5% 0;
+    padding: 0 5% ;
+    background-color: antiquewhite;
+    text-align: start;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.insideform div div{
+    height: 25vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px black solid;
+    border-radius: 10%;
+    margin: 2px 2px;
+}
+
+.insideform input{
+    height: 10%;
+    width: 50%;    
+    box-sizing: border-box;
+    margin: 4% 0;
+}
+
+.insideform button{
+    height: 10%;
+    width: 25%;    
+    margin: 4% 0;
+}
+
+
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.set {
+    margin: 0.7% 0;
+    padding: 1% 3%;
+    width: 55%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lawngreen;
+}
+
+.partofspeech{
+   text-decoration: solid;
+   font-size: larger;
+}
+
+.synonyms {
+    text-wrap: wrap;
+    font-size: large;
+
+}
+
+.antonyms {
+    text-wrap: wrap;
+    font-size: large;
+
+}
+
+.definitions{
+    text-wrap: wrap;
+    font-size: large;
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+.form1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+}
+
+.insideform{
+    height: 70%;
+    width: 60%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideform input{
+    height: 50%;
+    width: 80%;    
+    box-sizing: border-box;
+    margin-right: 2%;
+}
+
+.insideform button{
+    height: 50%;
+    width: 20%;    
+}
+
+.set {
+    margin: 0.7% 0;
+    padding: 1% 3%;
+    width: 75%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lawngreen;
+}
+
+}
