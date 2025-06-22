@@ -145,7 +145,7 @@ document.addEventListener("keydown", (elem) => {
         console.log('running')
         funcopr(elem.key)    
     }
-    if (elem.key == '=') {
+    if (elem.key == '=' || elem.key == 'Enter') {
         funcresult()
     }
     if (elem.key == '.') {
