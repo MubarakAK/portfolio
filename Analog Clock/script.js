@@ -23,7 +23,7 @@ let degms = milliseconds * 6
 dots.forEach(element => {
     position += 30;
     Object.assign(element.style, {
-        transform: `rotate(${position}deg) translateY(-21vh) rotate(-${position}deg)`,
+        transform: `rotate(${position}deg) translateY(-21vmin) rotate(-${position}deg)`,
 
     })
 });
@@ -69,7 +69,7 @@ setInterval(() => {
             console.log(milliseconds, degms)
         }
         Object.assign(element.style, {
-            transform: `rotate(${angle}deg) translateY(-${dist}vh) `,
+            transform: `rotate(${angle}deg) translateY(-${dist}vmin) `,
     
         })
     });

@@ -7,12 +7,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY( 23.5vh);
+    height: 100vh;
+    width: 100vw;
 }
 
 .container{
 
     display: flex;
+    justify-content: center;
     align-items: center;
     /* min-height: 100vh;
     min-width: 100vw; */
@@ -22,8 +24,8 @@
 }
 
 .base {
-    min-width: 50vh;
-    min-height: 50vh;
+    min-width: 50vmin;
+    min-height: 50vmin;
     border-radius: 50vh;
     border: 2vh rgb(88, 9, 9) solid;
     box-sizing: border-box;
@@ -31,9 +33,9 @@
 }
 
 .clock {
-    min-width: 50vh;
-    min-height: 50vh;
-    border-radius: 50vh;
+    min-width: 50vmin;
+    min-height: 50vmin;
+    border-radius: 50vmin;
     border: 1vh white solid;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
@@ -48,11 +50,12 @@
 
 .time {
     position: absolute;
+    font-size: 3.5rem;
 }
 
 #hour {
     position: absolute;
-    min-height: 14vh;
+    min-height: 14vmin;
     max-width: 1.4vh;
     background-color: black;
     border-top-left-radius: 3vh;
@@ -61,7 +64,7 @@
 
 #minute {
     position: absolute;
-    min-height: 18.66vh;
+    min-height: 18.66vmin;
     max-width: 1vh;
     background-color: red;
     border-top-left-radius: 2vh;
@@ -71,7 +74,7 @@
 
 #second {
     position: absolute;
-    min-height: 22.66vh;
+    min-height: 22.66vmin;
     max-width: 0.5vh;
     background-color: blue;
     border-top-left-radius: 1.5vh;
@@ -80,7 +83,7 @@
 
 #ms {
     position: absolute;
-    min-height: 6.66vh;
+    min-height: 6.66vmin;
     max-width: 0.25vh;
     background-color: green;
     border-top-left-radius: 0.5vh;
@@ -90,3 +93,40 @@
 .sup {
     visibility: hidden;
 }
+
+
+@media only screen and (max-width: 1000px) {
+   .time {
+    position: absolute;
+    font-size: 3rem;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+   .time {
+    position: absolute;
+    font-size: 2.8rem;
+   }
+}
+
+@media only screen and (max-width: 700px) {
+   .time {
+    position: absolute;
+    font-size: 2.6rem;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   .time {
+    position: absolute;
+    font-size: 2.3rem;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   .time {
+    position: absolute;
+    font-size: 2rem;
+   }
+}
+
