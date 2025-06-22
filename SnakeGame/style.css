@@ -7,6 +7,12 @@
     background-color: black;
 }
 
+.shipcontainer{
+    background-color: black;
+    overflow: hidden;
+    height: 100vh;
+}
+
 .tittatoo {
     display: flex;
     flex-direction: row;
@@ -16,11 +22,14 @@
     background-color: black;
 }
 
+.gameact{
+    margin: 2vmin;
+}
 
 .gridmaster {
     display: grid;
-    grid-template-columns: repeat(16, 5vh);
-    grid-template-rows: repeat(16, 5vh);
+    grid-template-columns: repeat(16, 4.6vh);
+    grid-template-rows: repeat(16, 4.6vh);
     border: 0.05vh white solid;
     background-color: #1dc604;
     /* padding-bottom: 1vh; */
@@ -54,6 +63,10 @@
 
 .gamebar {
     background: #46211A;
+    height: 8.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .listhead {
@@ -69,7 +82,8 @@
     margin: 2vh;
     list-style: none;
     color: azure;
-    font-size: larger;
+    font-size: 2em;
+
 }
 
 .scorecard {
@@ -90,6 +104,8 @@
     margin: 0 0 0 2vh;
     border: 1vh rgb(54, 14, 231) solid;
     border-right: 1vh rgb(14, 231, 14) solid;
+    border-left: 1vh rgb(14, 231, 14) solid;
+
 }
 
 .scorey {
@@ -110,7 +126,7 @@
 
 
 .headalpha {
-    margin: 1vh 0 1vh 1vh;
+    margin: 1vh 1vh 1vh 1vh;
     font-size: 4vh;
     text-align: center;
     color: #F1D3B2;
@@ -119,8 +135,14 @@
 
 .line1 {
     min-width: 100%;
-    min-height: 0.7vh;
+    min-height: 0.8vh;
     background-color: white;
+    visibility: hidden;
+}
+
+.centro{
+
+    text-align: center;
 }
 
 .xcard {
@@ -140,9 +162,30 @@
 
 }
 
+                /* <div class="bellydance">
+                    <div class="dance">
+                        <button id="playgain">Play Again</button>
+                        <button id="resetstat">Reset Stats</button>
+                    </div>
+                </div> */
+
 .bellydance {
-    margin-top: 5vh;
-    margin-left: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vmin;
+}
+
+.dance{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.i1{
+    margin: 2vmin 4vmin;
+    padding: 1vmin 2vmin;
+    font-size: 1.2em;
 }
 
 .changed {
@@ -162,7 +205,7 @@
 
 #caption2 {
     color: #F1D3B2;
-    font-size: x-large;
+    font-size: xx-large;
 
 }
 
@@ -181,34 +224,3 @@
 
 
 
-
-
-/* 
-.grib1{
-    border-top: 0;
-    border-left: 0;
-}
-.grib2{
-    border-top: 0;
-}
-.grib3{
-    border-top: 0;
-    border-right: 0;
-}
-.grib4{
-    border-left: 0;
-}
-.grib6{
-    border-right: 0;
-}
-.grib8{
-    border-bottom: 0;
-}
-.grib7{
-    border-bottom: 0;
-    border-left: 0;
-}
-.grib9{
-    border-bottom: 0;
-    border-right: 0;
-} */

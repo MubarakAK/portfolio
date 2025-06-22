@@ -15,6 +15,7 @@ caption0 = document.getElementById("caption0")
 snake = [[0, 231], [1, 232]]
 direction = 1
 snakedirection = 0
+let grid1
 let iter = 0
 let time = 220
 let end = 0
@@ -110,9 +111,9 @@ let snakemove = (snake, direction) => {
         newsnake.unshift([headid, headpos - 1])
     }
 
-    if (headpos == 0 || headpos == 256) {
-        start = 0;
-    }
+    // if (headpos == 0 || headpos == 256) {
+    //     start = 0;
+    // }
 
     oldsnake.forEach(element => {
         snakeid = element[0]
@@ -381,7 +382,9 @@ playagain.addEventListener("click", () => {
     caption0.innerText = "Feed the snake to win"
     caption.innerText = `Highscore ${localStorage.getItem("Highscore")}`
     caption2.innerText = ""
+    grid.style.border = ""
     grid.style.backgroundColor = "#1dc604"
+
 
 })
 
