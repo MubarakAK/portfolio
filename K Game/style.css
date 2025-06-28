@@ -3,8 +3,9 @@
     padding: 0;
 }
 
-.body {
+body {
     background-color: black;
+    height: 100vh;
 }
 
 .tittatoo {
@@ -16,24 +17,39 @@
     background-color: black;
 }
 
+.gameact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .gridmaster {
     display: grid;
-    grid-template-columns: repeat(5, 12vh);
-    grid-template-rows: repeat(5, 12vh);
+    grid-template-columns: repeat(5, 12vmin);
+    grid-template-rows: repeat(5, 12vmin);
 
 }
 
 
 .gridchild {
-    border: 0.5vh white solid;
+    border-bottom: 0.8vh white solid;
+    border-left: 0.8vh white solid;
     box-sizing: content-box;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #F1D3B2;
-
 }
+
+.gridr {
+    border-right: 0.8vh white solid;
+}
+
+.gridt {
+    border-top: 0.8vh white solid;
+}
+
 
 .boxos {
     font-size: xx-large;
@@ -69,7 +85,7 @@
     margin: 2vh;
     list-style: none;
     color: azure;
-    font-size: larger;
+    font-size: 2em;
 }
 
 .scorecard {
@@ -77,6 +93,7 @@
     flex-direction: column;
     justify-content: start;
     align-content: center;
+    margin-left: 5vmin;
 
 }
 
@@ -141,34 +158,74 @@
 }
 
 .bellydance {
-    margin-top: 5vh;
-    margin-left: 8vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.changed{
+#playgain,
+#resetstat {
+    margin: 5vmin 3.5vmin 0 3.5vmin;
+    padding: 1.1vmin;
+    font-size: 1.2em;
+    border-radius: 1vmin;
+    border: 0.1vmin yellow solid;
+
+
+}
+
+#playgain:hover {
+    color: white;
+    background-color: green;
+    border: 0.1vmin gold solid;
+}
+
+#resetstat:hover {
+    color: white;
+    background-color: red;
+    border: 0.1vmin gold solid;
+}
+
+.changed {
     background-color: #F1D3B2;
 }
 
 
-#caption2{
+#caption2 {
     color: #F1D3B2;
     font-size: x-large;
 
 }
 
-.caption{
+.caption {
     color: #F1D3B2;
     font-size: xx-large;
     text-align: center;
 }
 
-.gameover{
-margin: 10% 0;
+.gameover {
+    margin: 10% 0;
 }
 
 
+@media only screen and (max-width: 850px) {
+.listhead {
+    justify-content: space-around;
+}
+
+.scorecard {
+    margin-left: 0vmin;
+
+}
+
+.gridmaster {
+    grid-template-columns: repeat(5, 14.5vmin);
+    grid-template-rows: repeat(5, 14.5vmin);
+}
 
 
+} 
 
 
 

@@ -181,7 +181,9 @@ let Game = () => {
 
                 if (gamelost == 1 & gameover == 0) {
                     console.log(gamelost)
-                    alert("loser bleeugha")
+                    alert("You lose, try again (::) ")
+                    scoreo +=1
+                    scoreycard.innerText = scoreo
                     caption.innerText = "Game Lost"
                     caption2.innerText = "You lost this one, try to learn from your mistakes"
                 }
