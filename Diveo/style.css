@@ -62,12 +62,20 @@ nav {
     ;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
 .but2 {
     width: 5%;
     height: 95%;
     margin: 0;
     padding: 0;
     border-radius: 2vmin;
+    background-color: white;
 }
 
 .n3 {
