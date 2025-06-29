@@ -31,6 +31,15 @@ margin-right: 3%;
     aspect-ratio: 1;
 }
 
+
+.p1{
+padding: 3%;
+}
+
+.pl2{
+padding-left: 6%;
+}
+
 .pt1{
 padding-top: 3%;
 }
@@ -50,7 +59,7 @@ padding-top: 3%;
 
 .font2{
     font-size: x-large;
-    color: green;
+    color: rgb(0, 0, 0);
 }
 
 .ml3{

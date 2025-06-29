@@ -69,13 +69,13 @@ ul form {
 #search {
     width: 18vw;
     padding-right: 5%;
-    height: 4vh;
+    height: 100%;
 }
 
 #submitt {
     width: 8vw;
     /* padding-right: %; */
-    height: 4vh;
+    height: 100%;
     font-size: 150%
 }
 
@@ -101,10 +101,9 @@ ul form {
 
 
 .references {
-    background-color: azure;
+    background-color: rgb(188, 255, 255);
     margin: 2% auto 5% auto;
     width: 70vw;
-    border-radius: 10%;
 
 }
 
@@ -114,8 +113,16 @@ ul form {
 }
 
 .card {
+    
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.card:hover{
+background-color: rgba(255, 0, 0, 0.671);
+border-radius: 5vmin;
 }
 
 .bodoi {
@@ -146,8 +153,6 @@ ul form {
     justify-items: center;
     align-items: center;
 }
-
-
 
 
 @media only screen and (max-width: 900px) {
@@ -213,11 +218,13 @@ ul form {
     }
 
     .seli {
+        height: 85%;
         width: 100%;
 
     }
 
     .suli {
+        height: 90%;
         width: 90%;
 
     }
