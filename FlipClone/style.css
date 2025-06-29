@@ -4,14 +4,14 @@
 }
 
 main {
-    background-color: rgb(192, 222, 229);
+    background-color: rgb(105, 214, 238);
     /* height: 86vh; */
     color: white;
 
 }
 
 header {
-    background-color: rgb(189, 236, 119);
+    background-color: rgb(60, 255, 0);
     color: black;
     height: 8vh;
     color: white;
@@ -21,9 +21,23 @@ header {
     align-items: center;
 }
 
+.untextdec {
+    /* color: aqua;
+    background-color: brown; */
+    font-style: normal;
+}
+
+.untextdec p{
+    text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 footer {
-    background-color: rgb(192, 44, 118);
-    height: 4vh;
+    background-color: rgb(0, 4, 255);
+    height: 5vh;
     color: white;
     display: flex;
     justify-content: center;
@@ -34,9 +48,21 @@ footer {
     margin-right: 3vw;
 }
 
+.input{
+    padding-left: 2.5vmin;
+    font-size: 1.5em;
+    border-radius: 2vmin;
+}
+
 .logotop {
     margin-right: 7vw;
     height: 7vh;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(255, 0, 0);
 }
 
 .searchbar {
@@ -62,6 +88,7 @@ nav ul li {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding: 4vh 0 2vh 0;
 }
 
 .slidimg1 {
@@ -81,28 +108,46 @@ nav ul li {
 
 }
 
-.horizon {
-    width: 97vw;
-    margin: 0vh 1vw 1.5vh 1vw ;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    background-color: aqua;
-    overflow: scroll;
+.horizonparent {
+    background-color: rgb(255, 201, 201);
+
 }
 
-.horizonl {
-    width: 97vw;
-    margin: 0vh 1vw 0vw 1vw;
+.horizontitle {
+    margin: 0vh 0vh;
+    /* background-color: rgb(255, 255, 255); */
+
+}
+
+.horizon {
+    margin: 0vh 0vh;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    background-color: aqua;
     overflow: scroll;
+    scrollbar-width: 5px;
+    padding: 1.5vh 0;
+
+}
+
+
+
+.horizonl {
+    /* margin: 0vh 1vw 0vw 1vw; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* background-color: blue; */
+    overflow: scroll;
+    padding: 1.5vh 0;
+    scrollbar-width: 5px;
+    /* background-color: rgb(255, 255, 255); */
+
+
 }
 
 .card1 {
-    margin: 1vh 2vw 3vh 0vw;
+    margin: 1vh 4vw 1vh 2vw;
     height: 30vh;
     width: 15vw;
     display: flex;
@@ -110,30 +155,34 @@ nav ul li {
     justify-content: center;
     /* align-items: flex-start; */
     color: crimson;
-    background-color: rgb(164, 245, 174);
+    background-color: rgb(0, 199, 23);
+    border-radius: 3vmin;
 }
 
 .card2 {
     width: 15vw;
     height: 30vh;
-    margin: 1vh 2vw 3vh 0vw;
+    margin: 1vh 4vw 3vh 2vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: crimson;
-    background-color: rgb(164, 245, 174);
+    color: rgb(255, 217, 0);
+    background-color: rgb(0, 99, 165);
+    border-radius: 3vmin;
+
 }
 
 .card0 {
     width: 15vw;
     height: 30vh;
-    margin: 1vh 3vw 3vh 2vw;
+    margin: 1vh 4vw 3vh 2vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: flex-start; */
-    color: crimson;
-    background-color: rgb(164, 245, 174);
+    color: rgb(61, 255, 158);
+    background-color: rgb(255, 0, 191);
+    border-radius: 3vmin;
 }
 
 .cardp {
@@ -141,15 +190,17 @@ nav ul li {
 }
 
 .sim {
-    text-align: start;
-    background-color: aqua;
+    text-align: center;
+    /* background-color: aqua; */
+    white-space: pre;
+    font-size: 1.9em;
 }
-.horizontitle{
-    margin: 1.5vh 1vw 0vh 1vw;
-}
-.imgc{
-    height: 20vh;
+
+
+
+.imgc {
     width: 15vw;
+    aspect-ratio: 1.8/1;
 }
 
 @keyframes slidear1 {

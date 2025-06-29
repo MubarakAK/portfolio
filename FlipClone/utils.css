@@ -1,0 +1,100 @@
+.font1{
+    font-size: larger;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.mr1{
+margin-right: 3%;
+}
+
+.ml1{
+    margin-left: 3%;
+}
+
+.mt0{
+    margin-top: 2%;
+}
+
+.mt1{
+    margin-top: 3%;
+}
+
+.mb1{
+    margin-bottom: 3%;
+}
+
+
+.w1{
+    width: 95%;
+}
+
+.img1{
+    width: 60%;
+    aspect-ratio: 1;
+}
+
+
+.p1{
+padding: 3%;
+}
+
+.pl2{
+padding-left: 6%;
+}
+
+.pt0{
+padding-top: 0.5%;
+}
+
+/* .pb0{
+padding-bottom: 0.5%;
+} */
+
+.pt1{
+padding-top: 3%;
+}
+
+.pb1{
+    padding-bottom: 3%;
+    }
+
+.ml2{
+    margin-left: 6%;
+}
+
+.mt2{
+    margin-top: 6%;
+}
+
+.img2{
+    width: 20vw;
+    aspect-ratio: 1.5;
+}
+
+.font2{
+    font-size: 1.6em;
+    color: rgb(0, 0, 0);
+}
+
+.ml3{
+    margin-left: 9%;
+}
+
+
+.font3{
+    font-size: xx-large;
+    color: red;
+}
+
+.black{
+    color: black;
+}
+
+.fontl{
+    font-size: large;
+    color: blue;
+    font-weight: normal;
+    text-decoration: underline;
+}
