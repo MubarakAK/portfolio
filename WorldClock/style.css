@@ -265,3 +265,60 @@ body {
 .sup {
     visibility: hidden;
 }
+
+
+
+@media only screen and (max-width: 1220px) {
+#inpbutton {
+    width: 12%;
+    font-size: 1.7em;
+
+}
+
+#inp {
+    width:60%;
+    padding: 0 0 0 2%;
+    font-size: 1.5em;
+}
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+#inpbutton {
+    width: 14%;
+    font-size: 1.7em;
+
+}
+
+#inp {
+    width:65%;
+    padding: 0 0 0 1%;
+    font-size: 1.35em;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+#inpbutton {
+    width: 16%;
+    font-size: 1.7em;
+
+}
+
+#inp {
+    width:70%;
+    padding: 0 0 0 1%;
+    font-size: 1.15em;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+#inpbutton {
+    width: 18%;
+    font-size: 1.7em;
+
+}
+
+}
