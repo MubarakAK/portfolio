@@ -9,34 +9,71 @@ body {
     padding: 0;
 }
 
-.form1{
+.top {
+    background-color: rgb(0, 0, 0);
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+.logo {
+    width: min-content;
+    height: 12vh;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: antiquewhite;
+    margin-left: 1.5%;
+    font-size: 2em;
+
+}
+
+.false{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+
+
+.form1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
     height: 12vh;
+    width: 100%;
 }
 
-.insideform{
-    height: 80%;
-    width: 30%;    
+.insideform {
+    height: 90%;
+    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.insideform input{
+.insideform input {
     height: 50%;
-    width: 80%;    
+    width: 80%;
     box-sizing: border-box;
     margin-right: 2%;
+    font-size: 1.2em;
+
 }
 
-.insideform button{
+.insideform button {
     height: 50%;
-    width: 20%;    
+    width: 20%;
+    font-size: 1.2em;
+
 }
 
 
@@ -44,7 +81,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 
@@ -59,70 +96,72 @@ body {
     background-color: lawngreen;
 }
 
-.partofspeech{
-   text-decoration: solid;
-   font-size: larger;
+.partofspeech {
+    text-decoration: solid;
+    font-size: 1.5em;
 }
 
 .synonyms {
     text-wrap: wrap;
-    font-size: large;
+    font-size: 1.5em;
 
 }
 
 .antonyms {
     text-wrap: wrap;
-    font-size: large;
+    font-size: 1.5em;
 
 }
 
-.definitions{
+.definitions {
     text-wrap: wrap;
-    font-size: large;
+    font-size: 1.5em;
 
 }
 
 
 @media only screen and (max-width: 1000px) {
-.form1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
-    height: 20vh;
-}
+    .form1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        height: 20vh;
+    }
 
-.insideform{
-    height: 70%;
-    width: 60%;    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+    .insideform {
+        height: 70%;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
-.insideform input{
-    height: 50%;
-    width: 80%;    
-    box-sizing: border-box;
-    margin-right: 2%;
-}
+    }
 
-.insideform button{
-    height: 50%;
-    width: 20%;    
-}
+    .insideform input {
+        height: 50%;
+        width: 80%;
+        box-sizing: border-box;
+        margin-right: 2%;
+    }
 
-.set {
-    margin: 0.7% 0;
-    padding: 1% 3%;
-    width: 75%;
-    height: max-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: lawngreen;
-}
+    .insideform button {
+        height: 50%;
+        width: 20%;
+
+    }
+
+    .set {
+        margin: 0.7% 0;
+        padding: 1% 3%;
+        width: 75%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: lawngreen;
+    }
 
 }
