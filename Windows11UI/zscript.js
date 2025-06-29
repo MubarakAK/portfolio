@@ -1,4 +1,4 @@
-let taskbar = document.getElementsByClassName("footer1")[0]
+let taskbar = document.getElementsByClassName("button1")[0]
 let startmenu = document.getElementsByClassName("start")[0]
 let bg = document.getElementsByClassName("bg")[0]
 let no = 1

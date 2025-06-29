@@ -56,3 +56,13 @@ body{
     height: 70vh;
     transition: all .3s ease-in;
 }
+
+.button1{
+    height:5vh;
+    width:2.2vw;
+    position: absolute;
+    left:35vw;
+    bottom: 0;
+    /* background-color: aqua; */
+    z-index: 6;
+}
