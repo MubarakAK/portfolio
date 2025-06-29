@@ -1,7 +1,7 @@
 
 .font1{
-    font-weight: 600;
-    font-size: xx-large;
+    font-weight: 700;
+    font-size: 2.2em;
     color: red;
     text-shadow: white;
     text-align: center;
@@ -11,3 +11,12 @@
 .m0{
     margin: 0;
 }
+
+@media only screen and (max-width: 800px) {
+
+.font1{
+    font-weight: 500;
+    font-size: 1.9em;
+}
+
+} 

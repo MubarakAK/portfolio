@@ -51,7 +51,7 @@ function dispsearch() {
                 parent = document.createElement('div')
                 parent.className = "parent"
                 parent.id = str[0]
-                parent.innerHTML = `<b><p>Website: ${str[1]}</p> <p>Username: ${str[2]}</p> <p>Password:${str[3]}</p></b>`
+                parent.innerHTML = `<b><p>Website: ${str[1]}</p> <p>Username: ${str[2]}</p> <p>Password: ${str[3]}</p></b>`
                 passbox.append(parent)
             }
         });
