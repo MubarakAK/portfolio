@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .container {
@@ -30,7 +31,7 @@ body {
     display: flex;
     flex-direction: row;
     align-content: center;
-    height: 10vh;
+    height: 9vh;
     background-color: rgb(0, 150, 250);
     margin: 0;
     padding: 0;
@@ -65,6 +66,13 @@ body {
     font-size: 4vh;
 }
 
+.contentp {
+    height: 10%;
+    text-align: center;
+    color: antiquewhite;
+    align-content: center;
+    font-size: 2em;
+}
 
 .infer {
     /* background-color: darkorange; */
@@ -76,7 +84,8 @@ body {
     margin: 1.5vh 0 0 0;
 }
 
-.line1, .line2{
+.line1,
+.line2 {
     height: 38%;
     width: 50%;
     display: flex;
@@ -85,7 +94,8 @@ body {
     align-items: center;
 }
 
-.line3{
+.line3 {
+    margin-top: 1%;
     height: 24%;
     width: 50%;
     justify-content: center;
@@ -147,12 +157,12 @@ body {
 }
 
 #inpbutton:hover {
-border: 0.5vh solid white;
+    border: 0.5vh solid white;
 }
 
 .display {
     /* background-color: red; */
-    height: 55%;
+    height: 45%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -216,18 +226,18 @@ border: 0.5vh solid white;
 
 
 
-.font2{
+.font2 {
     color: rgb(255, 229, 229);
     font-family: sans-serif;
 
 }
 
-.font3{
+.font3 {
     color: rgb(16, 0, 160);
     font-family: sans-serif;
 }
 
-.font4{
+.font4 {
     color: rgb(0, 0, 0);
     font-family: sans-serif;
 }
