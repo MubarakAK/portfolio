@@ -1,7 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 225, 186);
+    margin: 0;
+}
+
+
 .gridmaster {
     display: grid;
     grid-template-columns: repeat(3, 12vh);
     grid-template-rows: repeat(3, 12vh);
+
+}
+
+.gameact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -22,120 +41,158 @@
     align-items: center;
 }
 
-.boxos{
-    font-size: xx-large;
+.boxos {
+    font-size: 3em;
     text-align: center;
     text-transform: uppercase;
     min-width: 100%;
-    min-height: 100% ;
+    min-height: 100%;
     cursor: pointer;
     align-content: center;
 
 }
+
 
 .listhead {
     display: flex;
     background-color: black;
     height: 12vh;
     align-items: center;
-    border-radius: 2vh;
 }
 
-.item{
+.item {
     margin: 2vh;
     list-style: none;
     color: azure;
-    font-size: larger;
+    font-size: 2em;
 }
 
-.scorecard{
+
+
+.scorecard {
     display: flex;
-    
+    height: 10em;
+
 }
 
-.scorex{
-    margin: 0 0 0 2vh;
-    border: 1vh  rgb(54, 14, 231)  solid;
+.scorex {
+    margin: 0 0 0 0vh;
+    border: 1vh rgb(54, 14, 231) solid;
     border-right: 1vh rgb(14, 231, 14) solid;
 }
 
-.scorey{
+.scorey {
     margin: 0 vh;
-    border: 1vh red   solid;
+    border: 1vh red solid;
     border-left: 0;
 }
 
-.headalpha{
+.headalpha {
     margin-left: 4vh;
     font-size: 4vh;
     text-align: center;
 }
 
 
-.line1{
-    width:20vh;
-    height:0.5vh;
+.line1 {
+    width: 20vh;
+    height: 0.5vh;
     background-color: black;
 }
 
-.bellydance{
-    margin-top: 10vh;
-    margin-left: 2.5vw;
+.bellydance {
+    margin: 5vmin 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.dance button {
+    margin: 1.5vmin;
+    padding: 1.5vmin;
+    font-size: 1.5em;
+    border-radius: 1vmin;
+    border: 0.3vmin solid black;
+}
 
-.xcard{
-    font-size: x-large;
+.xcard {
+    font-size: 3em;
     text-align: center;
-}
-
-.ycard{
-    font-size: x-large;
+    height: 2.5em;
     text-align: center;
+    align-content: center;
+}
+
+.ycard {
+    font-size: 3em;
+    text-align: center;
+    height: 2.5em;
+    text-align: center;
+    align-content: center;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.grib1{
+.grib1 {
     border-top: 0;
     border-left: 0;
 }
-.grib2{
+
+.grib2 {
     border-top: 0;
 }
-.grib3{
+
+.grib3 {
     border-top: 0;
     border-right: 0;
 }
-.grib4{
+
+.grib4 {
     border-left: 0;
 }
-.grib6{
+
+.grib6 {
     border-right: 0;
 }
-.grib8{
+
+.grib8 {
     border-bottom: 0;
 }
-.grib7{
+
+.grib7 {
     border-bottom: 0;
     border-left: 0;
 }
-.grib9{
+
+.grib9 {
     border-bottom: 0;
     border-right: 0;
+}
+
+
+#playgain:hover, #resetstat:hover{
+    background-color: chartreuse;
+}
+
+
+@media only screen and (max-width:1000px){
+    .tittatoo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .xcard {
+        height: 2em;
+    }
+    
+    .ycard {
+        height: 2em;
+    }
+
+    .scorecard {
+        height: 8em;
+    
+    }
 }

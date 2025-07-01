@@ -2,15 +2,16 @@ let turn = ["X", "O"]
 let gameover = 0
 let boxes = Array.from(document.getElementsByClassName("boxos"))
 let winner = ""
+let cracker, inter
+let stopper = 1
 scorex = 0
 scorexcard = document.getElementsByClassName("xcard")[0]
+scoreycard = document.getElementsByClassName("ycard")[0]
+resetstats = document.getElementById("resetstat")
+playagain = document.getElementById("playgain")
 scorexcard.innerText = scorex
 scoreo = 0
-scoreycard = document.getElementsByClassName("ycard")[0]
 scoreycard.innerText = scoreo
-playagain = document.getElementById("playgain")
-resetstats = document.getElementById("resetstat")
-
 
 wincombs =
     [
@@ -26,13 +27,30 @@ wincombs =
     ]
 
 iswin = () => {
+    winner=""
+    stopper=1
     wincombs.forEach(element => {
         if (boxes[element[0]].innerText == boxes[element[1]].innerText && boxes[element[2]].innerText == boxes[element[1]].innerText && boxes[element[2]].innerText != "") {
             gameover = 1
             winner = boxes[element[0]].innerText
+            console.log(winner)
         }
-
     })
+
+    boxes.forEach(element => {
+        if(element.innerText!="")
+        {
+        }
+        else{
+            stopper=0
+        }
+    });
+
+    if(stopper!=0)
+    {
+        gameover=1
+        console.log("checky")
+    }
 }
 
 
@@ -42,22 +60,26 @@ boxes.forEach(element => {
         let texttoadd = turn[0]
         if (gameover == 0 && element.innerText == '') {
             element.innerText = texttoadd
-            let inter = turn[0]
+            inter = turn[0]
             turn[0] = turn[1]
             turn[1] = inter
             iswin()
+            console.log(winner)
+
             if (gameover == 1 && winner == "X") {
-                scorex += 1
+                scorex += 2
                 alert("Player X Won")
                 scorexcard.innerText = scorex
-
             }
             else if (gameover == 1 && winner == "O") {
-                scoreo += 1
+                scoreo += 2
                 alert("Player O Won")
                 scoreycard.innerText = scoreo
+
             }
             else if (gameover == 1 && winner == "") {
+                scoreo += 1
+                scorex += 1
                 alert("Players Drew Circular Pyramids :)")
 
             }
