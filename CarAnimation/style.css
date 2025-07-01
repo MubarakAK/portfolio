@@ -3,9 +3,10 @@
     padding: 0;
 }
 
-body{
+body {
     overflow: hidden;
 }
+
 .backgr {
     position: absolute;
     width: 100%;
@@ -13,9 +14,9 @@ body{
     box-sizing: border-box;
     animation: shakescreen 3s infinite linear alternate;
     background-image: url(Images/bg4.jpeg);
-    background-size: cover; 
+    background-size: cover;
     background-position-x: center;
-    background-position-y: bottom ;
+    background-position-y: bottom;
     background-repeat: no-repeat;
     overflow: hidden;
 
@@ -30,9 +31,9 @@ body{
     animation: shake 30s infinite linear;
     z-index: 5;
     background-image: url(Images/car.png);
-    background-size: contain; 
+    background-size: contain;
     background-position-x: center;
-    background-position-y: center ;
+    background-position-y: center;
     background-repeat: no-repeat;
 
 }
@@ -46,9 +47,9 @@ body{
     aspect-ratio: 1 / 1;
     z-index: 6;
     background-image: url(Images/tyre.png);
-    background-size: contain; 
+    background-size: contain;
     background-position-x: center;
-    background-position-y: center ;
+    background-position-y: center;
     background-repeat: no-repeat;
 
 
@@ -61,16 +62,16 @@ body{
     animation: wheelrot .03s infinite linear;
     width: 17%;
     aspect-ratio: 1 / 1;
-    z-index: 6 ;
+    z-index: 6;
     background-image: url(Images/tyre.png);
-    background-size: contain; 
+    background-size: contain;
     background-position-x: center;
-    background-position-y: center ;
+    background-position-y: center;
     background-repeat: no-repeat;
 
 }
 
-.rds{
+.rds {
     position: absolute;
     bottom: 0%;
     left: 20%;
@@ -79,7 +80,7 @@ body{
 
 }
 
-.rd{
+.rd {
     animation: rdtran 1s infinite linear;
 
 }
@@ -101,8 +102,8 @@ body{
     left: 36%;
 
 }
- 
- #rd2 {
+
+#rd2 {
     position: absolute;
     bottom: 0%;
     width: 56.9%;
@@ -118,15 +119,111 @@ body{
     left: 148%;
     z-index: 2;
 
-} 
+}
 
+
+
+@keyframes jumper {
+    0% {
+        bottom: 20%;
+    }
+
+    6% {
+        transform: rotateZ(-0.01turn);
+        bottom: 20%;
+    }
+
+    12% {
+        transform: translateX(8%) rotateZ(-0.02turn);
+        bottom: 30%;
+    }
+
+    18% {
+        transform: translateX(16%) rotateZ(-0.03turn);
+        bottom: 40%;
+    }
+
+    24% {
+        transform: translateX(24%) rotateZ(-0.02turn);
+        bottom: 50%;
+    }
+
+    30% {
+        transform: translateX(32%) rotateZ(-0.01turn);
+        bottom: 60%;
+    }
+
+    36% {
+        transform: translateX(40%);
+        bottom: 60%;
+    }
+
+    42% {
+        transform: translateX(48%) rotateZ(0.01turn);
+        bottom: 50%;
+    }
+
+    48% {
+        transform: translateX(56%) rotateZ(0.02turn);
+        bottom: 40%;
+    }
+
+    54% {
+        transform: translateX(64%) rotateZ(0.03turn);
+        bottom: 30%;
+    }
+
+    60% {
+        transform: translateX(72%) rotateZ(0.03turn);
+        bottom: 20%;
+    }
+
+    66% {
+        transform: translateX(61.5%) rotateZ(-0.0turn);
+        bottom: 21.5%;
+    }
+
+    72% {
+        transform: translateX(51%) rotateZ(-0.005turn);
+        bottom: 23%;
+    }
+
+    78% {
+        transform: translateX(40.5%) rotateZ(-0.01turn);
+        bottom: 24.5%;
+    }
+
+    84% {
+        transform: translateX(30%) rotateZ(-0.015turn);
+        bottom: 26%;
+    }
+
+    90% {
+        transform: translateX(20%) rotateZ(-0.01turn);
+        bottom: 24%;
+    }
+
+    96% {
+        transform: translateX(10%) rotateZ(-0.005turn);
+        bottom: 22%;
+    }
+
+    100% {
+        bottom: 20%;
+    }
+}
 
 @keyframes rdtran {
 
+    0% {
+        transform: translateX(0%)
+    }
+
     100% {
-        transform: translateX(-56.9%)
+        transform: translateX(-100%)
     }
 }
+
 
 
 @keyframes shakescreen {
@@ -158,11 +255,11 @@ body{
 
     10% {
 
-        transform: translateY(0%)
+        transform: translateY(0vw)
     }
 
     20% {
-        transform: translateY(1.5%)
+        transform: translateY(1.5vw)
     }
 
     30% {
@@ -171,37 +268,37 @@ body{
     }
 
     40% {
-        transform: translateY(2.9%)
+        transform: translateY(2.9vw)
     }
 
     45% {
-        transform: translateY(2.9%)
+        transform: translateY(2.9vw)
     }
 
     50% {
-        transform: translateY(4.2%)
+        transform: translateY(4.2vw)
     }
 
     55% {
 
-        transform: translateY(4.2%)
+        transform: translateY(4.2vw)
     }
 
     60% {
-        transform: translateY(3.9%)
+        transform: translateY(3.9vw)
     }
 
     75% {
 
-        transform: translateY(2.9%)
+        transform: translateY(2.9vw)
     }
 
     90% {
-        transform: translateY(1.9%)
+        transform: translateY(1.9vw)
     }
 
     100% {
-        transform: translateY(0%)
+        transform: translateY(0vw)
     }
 
 
