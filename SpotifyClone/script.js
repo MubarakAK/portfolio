@@ -78,11 +78,11 @@ songplays.forEach((element, i) => {
       else {
          makepause("Play")
          indexsong = i
-         if (audioelem.src == `${server}/SpotifyClone/audios/${indexsong}.mp3`) {
+         if (audioelem.src == `audios/${indexsong}.mp3`) {
             currpurr = audioelem.currentTime
          }
          else {
-            audioelem.src = `${server}/SpotifyClone/audios/${indexsong}.mp3`
+            audioelem.src = `${server}/audios/${indexsong}.mp3`
             currpurr = 0
          }
 
