@@ -1,5 +1,5 @@
 let audioelem = new Audio("audios/4.mp3");
-console.log("hi", audioelem)
+console.log("hi yo", audioelem)
 const currentUrl = window.location.href;
 let server = currentUrl ;
 let playbutseek = document.getElementsByClassName("icplay")[0];
