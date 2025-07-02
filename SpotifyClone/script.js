@@ -82,7 +82,8 @@ songplays.forEach((element, i) => {
             currpurr = audioelem.currentTime
          }
          else {
-            audioelem.src = `${server}/audios/${indexsong}.mp3`
+            // audioelem.src = `${server}/audios/${indexsong}.mp3`
+            audioelem.src = `audios/${indexsong}.mp3`
             currpurr = 0
          }
 
