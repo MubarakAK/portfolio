@@ -28,11 +28,11 @@ let songs = [
    { songname: "Despacito", coverpath: "images/image2.jpeg", filepath: "audios/2.mp3" },
    { songname: "AAj Ki Raat", coverpath: "images/image3.jpeg", filepath: "audios/3.mp3" },
    { songname: "mm hmm hmmm", coverpath: "images/image4.jpeg", filepath: "audios/4.mp3" },
+   { songname: "Bewafa Nikli hai", coverpath: "images/image5.jpeg", filepath: "audios/5.mp3" },
    { songname: "tum meri asmaan", coverpath: "images/image1.jpeg", filepath: "audios/6.mp3" },
    { songname: "Despacito", coverpath: "images/image2.jpeg", filepath: "audios/7.mp3" },
    { songname: "AAj Ki Raat", coverpath: "images/image3.jpeg", filepath: "audios/8.mp3" },
    { songname: "mm hmm hmmm", coverpath: "images/image4.jpeg", filepath: "audios/9.mp3" },
-   { songname: "Bewafa Nikli hai", coverpath: "images/image5.jpeg", filepath: "audios/10.mp3" },
 ]
 
 progressbar = document.getElementById("ran");
